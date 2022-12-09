@@ -1,0 +1,40 @@
+<ion-content>
+  <div class="loginpic">
+    <img src="../../assets/login.png" alt="">
+  </div>
+  <div class="logindiv">
+    <div class="login">
+      <h1>LOGIN</h1>
+    </div>
+
+    <div class="Usuario">
+      <h1>Email</h1>
+      <div class="trasbaixousuario">
+        <div class="usubaixo" style="padding-left: 10px;">
+          <ion-input placeholder="Usuario" class="custom"></ion-input>
+        </div>
+      </div>
+    </div>
+    <div class="senha">
+      <h1>Senha</h1>
+      <div class="trasbaixosenha">
+        <div class="senhabaixo" style="padding-left: 10px;">
+          <ion-input placeholder="Senha" class="custom" type="password"></ion-input>
+        </div>
+      </div>
+    </div>
+
+    <ion-button routerLink="/tabs">Login</ion-button>
+
+
+
+
+
+    <div class="registrar" [routerLink]="['/signup']">
+      <h1>Registrar-se</h1>
+      <h1>Esqueceu a senha ?</h1>
+    </div>
+  </div>
+
+
+</ion-content>

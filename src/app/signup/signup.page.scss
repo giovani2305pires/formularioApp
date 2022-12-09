@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
+
+ion-content {
+    --background: #81c2e0;
+}
+
+.logindiv{
+    width: 80vw;
+    height: 230vw;
+    position: absolute;
+    background-color: #4992b4;
+    z-index: 10;
+    border-radius: 10px;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+
+.login{
+    color: white;
+    h1{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 10vw;
+        margin-left: 20vw;
+        position: absolute;
+    }
+}
+
+.Usuario{
+    color: white;
+    h1{
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 7vw;
+        margin-left: 3vw;
+        margin-top: 21vw;
+        position: absolute;
+        text-shadow: 0px 1px 1px #000;
+
+    }
+    .trasbaixousuario{
+        width: 75vw;
+        height: 15vw;
+        margin-top: 33vw;
+        border-radius: 5vw;
+        margin-left: 2.5vw;
+        position: absolute;
+        background-color: #81c2e0;
+        text-shadow: 0px 1px 1px #000;
+        padding-left: 10px;
+
+
+        .usubaixo{
+            color: #000000;
+            font-size: 5vw;
+            margin-top: 1.5vw;
+            margin-right: 0.5vw;
+            margin-right: 0.5vw;
+            text-shadow: 0px 1px 1px #000;
+
+        }
+    }
+}
+
+
+
+
+
+.senha{
+    position: absolute;
+    margin-top: 46vw;
+    margin-left: 2.5vw;
+    h1{
+        color: white;
+        position: absolute;
+        font-family: 'Lexend Deca', sans-serif;
+        text-shadow: 0px 1px 1px #000;
+    }
+    .trasbaixosenha{
+        width: 75vw;
+        height: 15vw;
+        margin-top: 17vw;
+        border-radius: 5vw;
+        margin-left: 0vw;
+        position: absolute;
+        background-color: #81c2e0;
+        text-shadow: 0px 1px 1px #000;
+        padding-left: 10px;
+
+        .senhabaixo{
+            color: #000000;
+            font-size: 5vw;
+            margin-top: 1.5vw;
+            margin-right: 0.5vw;
+            margin-right: 0.5vw;
+            text-shadow: 0px 1px 1px #000;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+.senha2{
+    position: absolute;
+    margin-top: 76vw;
+    margin-left: 2.5vw;
+    h1{
+        color: white;
+        position: absolute;
+        font-family: 'Lexend Deca', sans-serif;
+        text-shadow: 0px 1px 1px #000;
+        white-space: nowrap;
+    }
+    .trasbaixosenha2{
+        width: 75vw;
+        height: 15vw;
+        margin-top: 17vw;
+        border-radius: 5vw;
+        margin-left: 0vw;
+        position: absolute;
+        background-color: #81c2e0;
+        text-shadow: 0px 1px 1px #000;
+        padding-left: 10px;
+
+        .senhabaixo2{
+            color: #000000;
+            font-size: 5vw;
+            margin-top: 1.5vw;
+            margin-right: 0.5vw;
+            margin-right: 0.5vw;
+            text-shadow: 0px 1px 1px #000;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.telefone{
+    position: absolute;
+    margin-top: 106vw;
+    margin-left: 2.5vw;
+    h1{
+        color: white;
+        position: absolute;
+        font-family: 'Lexend Deca', sans-serif;
+        text-shadow: 0px 1px 1px #000;
+        white-space: nowrap;
+    }
+    .telefonevaixo{
+        width: 75vw;
+        height: 15vw;
+        margin-top: 17vw;
+        border-radius: 5vw;
+        margin-left: 0vw;
+        position: absolute;
+        background-color: #81c2e0;
+        text-shadow: 0px 1px 1px #000;
+        padding-left: 10px;
+
+        .telefonebaixobvi{
+            color: #000000;
+            font-size: 5vw;
+            margin-top: 1.5vw;
+            margin-right: 0.5vw;
+            margin-right: 0.5vw;
+            text-shadow: 0px 1px 1px #000;
+        }
+
+    }
+}
+
+.email{
+    position: absolute;
+    margin-top: 137vw;
+    margin-left: 2.5vw;
+    h1{
+        color: white;
+        position: absolute;
+        font-family: 'Lexend Deca', sans-serif;
+        text-shadow: 0px 1px 1px #000;
+        white-space: nowrap;
+    }
+    .enmailfund{
+        width: 75vw;
+        height: 15vw;
+        margin-top: 17vw;
+        border-radius: 5vw;
+        margin-left: 0vw;
+        position: absolute;
+        background-color: #81c2e0;
+        text-shadow: 0px 1px 1px #000;
+        padding-left: 10px;
+
+        .emailbaixo{
+            color: #000000;
+            font-size: 5vw;
+            margin-top: 1.5vw;
+            margin-right: 0.5vw;
+            margin-right: 0.5vw;
+            text-shadow: 0px 1px 1px #000;
+        }
+
+    }
+}
+
+
+.cpf{
+    position: absolute;
+    margin-top: 167vw;
+    margin-left: 2.5vw;
+    h1{
+        color: white;
+        position: absolute;
+        font-family: 'Lexend Deca', sans-serif;
+        text-shadow: 0px 1px 1px #000;
+        white-space: nowrap;
+    }
+    .cpfbaixofundo{
+        width: 75vw;
+        height: 15vw;
+        margin-top: 17vw;
+        border-radius: 5vw;
+        margin-left: 0vw;
+        position: absolute;
+        background-color: #81c2e0;
+        text-shadow: 0px 1px 1px #000;
+        padding-left: 10px;
+
+        .cpfbaixo{
+            color: #000000;
+            font-size: 5vw;
+            margin-top: 1.5vw;
+            margin-right: 0.5vw;
+            margin-right: 0.5vw;
+            text-shadow: 0px 1px 1px #000;
+        }
+
+    }
+}
+
+
+
+.loginentrar{
+    width: 70vw;
+    height: 15vw;
+    background-color: #ffffff;
+    position: absolute;
+    margin-top: 90vw;
+    margin-left: 5vw;
+    border-radius: 5vw;
+}
+
+
+
+.registrar{
+    color: #000000;
+    text-align: center;
+    h1{
+        font-size: 20px ;
+    }
+    margin-top: -2.7    vw;
+}
+
+
+
+ion-select-option {
+  background-color: #3b2c86;
+    color: #3b2c86;
+    --background: rgb(112, 72, 72);
+}
+
+ion-button{
+    --background: #ffff;
+    color: #000;
+    margin-top: 205vw;
+    width: 70vw;
+    height: 10vw;
+    margin-left: 5vw;
+    font-size: 4vw;
+    text-shadow: 0px 1px 1px #000;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.fundodwads{
+
+  background-color: #4835a3;
+}
+

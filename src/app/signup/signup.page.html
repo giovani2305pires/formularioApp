@@ -1,0 +1,76 @@
+<ion-content color="secondary">
+  <section class="signup">
+    <div class="container-signup">
+      <h2 style="color: #000;">Registre-se!</h2>
+      <form [formGroup]="formSignup">
+        <div class="div-item">
+          <ion-item>
+            <ion-input type="text" placeholder="Nome" clear-input formControlName="nome"></ion-input>
+          </ion-item>
+          <ng-container *ngFor="let erro of mensagens.nome">
+            <span class="msg-erro"
+              *ngIf="formSignup.get('nome').hasError(erro.tipo) && (formSignup.get('nome').dirty || formSignup.get('nome').touched)">
+              {{ erro.mensagem }}
+            </span>
+          </ng-container>
+        </div>
+        <div class="div-item">
+          <ion-item>
+            <ion-input type="text" placeholder="CPF" clear-input formControlName="cpf"></ion-input>
+          </ion-item>
+          <ng-container *ngFor="let erro of mensagens.cpf">
+            <span class="msg-erro"
+              *ngIf="formSignup.get('cpf').hasError(erro.tipo) && (formSignup.get('cpf').dirty || formSignup.get('cpf').touched)">
+              {{ erro.mensagem }}
+            </span>
+          </ng-container>
+        </div>
+        <div class="div-item">
+          <ion-item>
+            <ion-input type="email" placeholder="E-mail" clear-input formControlName="email"></ion-input>
+          </ion-item>
+          <ng-container *ngFor="let erro of mensagens.email">
+            <span class="msg-erro"
+              *ngIf="formSignup.get('email').hasError(erro.tipo) && (formSignup.get('email').dirty || formSignup.get('email').touched)">
+              {{ erro.mensagem }}
+            </span>
+          </ng-container>
+        </div>
+        <div class="div-item">
+          <ion-item>
+            <ion-input [type]="mostrarSenha ? 'text' : 'password'" placeholder="Senha" formControlName="senha">
+            </ion-input>
+            <ion-icon [name]="iconeSenha" slot="end" (click)="alterarVisualizacaoSenha()"></ion-icon>
+          </ion-item>
+          <ng-container *ngFor="let erro of mensagens.senha">
+            <span class="msg-erro"
+              *ngIf="formSignup.get('senha').hasError(erro.tipo) && (formSignup.get('senha').dirty || formSignup.get('senha').touched)">
+              {{ erro.mensagem }}
+            </span>
+          </ng-container>
+        </div>
+        <div class="div-item">
+          <ion-item>
+            <ion-input [type]="mostrarConfirmarSenha ? 'text' : 'password'" placeholder="Confirmar senha"
+              formControlName="confirmaSenha">
+            </ion-input>
+            <ion-icon [name]="iconeConfirmarSenha" slot="end" (click)="alterarVisualizacaoConfirmarSenha()">
+            </ion-icon>
+          </ion-item>
+          <ng-container *ngFor="let erro of mensagens.confirmaSenha">
+            <span class="msg-erro"
+              *ngIf="formSignup.get('confirmaSenha').hasError(erro.tipo) && (formSignup.get('confirmaSenha').dirty || formSignup.get('confirmaSenha').touched)">
+              {{ erro.mensagem }}
+            </span>
+          </ng-container>
+        </div>
+      </form>
+      <ion-button expand="block" color="success">
+        Salvar
+      </ion-button>
+      <ion-button expand="block" routerLink="/login">
+        Voltar
+      </ion-button>
+    </div>
+  </section>
+</ion-content>
